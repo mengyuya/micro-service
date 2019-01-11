@@ -13,9 +13,9 @@ spring:
     config:
       server:
         git:
-          uri: https://gitlab.com/mengyuya/spring-config.git
-          username: mengyuya
-          password: zmy258094
+          uri: https://xxxxxx.git
+          username: xxxxx
+          password: xxxxx
           # gitlab仓库地址下的相对地址，可以配置多个，用,分割。
           search-paths: config
       label: master
