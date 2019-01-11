@@ -1,0 +1,21 @@
+server:
+  port: 8888
+
+#注册中心服务地址
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8751/eureka/
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://gitlab.com/mengyuya/spring-config.git
+          username: mengyuya
+          password: zmy258094
+          # gitlab仓库地址下的相对地址，可以配置多个，用,分割。
+          search-paths: config
+      label: master
