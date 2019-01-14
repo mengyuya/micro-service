@@ -79,7 +79,7 @@ public class PermissionIdFilter extends ZuulFilter {
             //todo 加解密 进行数据库对比 看permissionid在数据库有没有配置
             //不会继续执行。。。
             currentContext.setSendZuulResponse(false);
-            currentContext.setResponseBody("无权限");
+            currentContext.setResponseBody("no permission");
             currentContext.setResponseStatusCode(ErrorCode.FORBIDDEN);
             return null;
         }

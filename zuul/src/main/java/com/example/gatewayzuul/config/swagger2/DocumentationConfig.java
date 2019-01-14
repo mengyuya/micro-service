@@ -25,14 +25,11 @@ public class DocumentationConfig implements SwaggerResourcesProvider {
     @Override
     public List<SwaggerResource> get() {
         //TODO 判断是否有权限码 权限加解密
-        RequestContext currentContext = RequestContext.getCurrentContext();
-        HttpServletRequest request = currentContext.getRequest();
-        String permissionId = request.getParameter("permissionId");
 
         List<SwaggerResource> resources = new ArrayList<>();
         List<Route> routes = routeLocator.getRoutes();
         for (Route route : routes) {
-            resources.add(setSwaggerResource(route.getId(), route.getFullPath().replace("**", "v2/api-docs?group=miya&permissionId=" + permissionId), "0.1"));
+            resources.add(setSwaggerResource(route.getId(), route.getFullPath().replace("**", "v2/api-docs?group=miya&permissionId=1"), "0.1"));
         }
         return resources;
     }
