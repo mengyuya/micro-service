@@ -1,0 +1,12 @@
+server:
+  port: 8086
+
+spring:
+  application:
+    #读取的版本环境
+    name: admin-server
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8751/eureka/
