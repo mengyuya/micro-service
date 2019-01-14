@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.w3.org/1999/xhtml">
+<head lang="en">
+    <link rel="icon" th:href="@{/images/favicon.ico}" type="image/x-icon"/>
+    <meta charset="UTF-8"/>
+    <title>统一异常处理</title>
+</head>
+<body>
+<div style=" text-align:center;"><h1>夭寿啦！异常啦！Error Handler</h1></div>
+<br/>
+<div th:text="错误代码：+ ${code}"></div>
+<div th:text="错误提示：+ ${msg}"></div>
+<div th:text="错误请求：+ ${url}"></div>
+<div th:text="错误内容：+ ${exception}"></div>
+</body>
+</html>
