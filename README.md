@@ -17,9 +17,7 @@ API文档：swagger2<br/>
 --------------
 ![springcloud微服务架构.png](https://upload-images.jianshu.io/upload_images/14770430-8a0ead61b781be6c.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-##启动步骤  
-<br/>
-    
+## 启动步骤    
 1.配置数据源和config<br/>
 2.windows直接下载该项目下nginx-1.12.2.zip并解压运行(端口8088，已配置zuul80端口和81端口集群)，其他系统需要自行配置nginx<br/>
 3.运行该项目下zip-server-2.11.12-exec.jar（端口9411）<br/>
