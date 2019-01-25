@@ -11,6 +11,8 @@ API文档：swagger2
 链路跟踪：sleuth+zipkin  
 安全认证：spring security(暂未实现)  
 服务监控：actuator->spring-admin  
+日志管理：logback  
+
 
 ## 架构图 
 ![springcloud微服务架构.png](https://upload-images.jianshu.io/upload_images/14770430-8a0ead61b781be6c.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
