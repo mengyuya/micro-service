@@ -20,7 +20,7 @@ API文档：swagger2
 ## 启动步骤    
 1.配置数据源和config  
 2.windows直接下载该项目下nginx-1.12.2.zip并解压运行(端口8088，已配置zuul80端口和81端口集群)，其他系统需要自行配置nginx  
-3.运行该项目下zip-server-2.11.12-exec.jar（端口9411）  
+3.运行该项目下zipkin-server-2.11.12-exec.jar（端口9411）  
 4.启动eureka集群（端口8751和8761）  
 5.启动config-server（端口8888）  
 6.启动spring-admin-ui（端口8086）  

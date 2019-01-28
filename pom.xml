@@ -19,9 +19,11 @@
         <module>eureka2</module>
         <module>order-service</module>
         <module>order-service2</module>
+        <module>order-service3</module>
         <module>spring-admin-ui</module>
         <module>user-service</module>
         <module>user-service2</module>
+        <module>user-service3</module>
         <module>zuul</module>
         <module>zuul2</module>
     </modules>
