@@ -1,0 +1,74 @@
+Manifest-Version: 1.0
+Class-Path: httpcore-4.4.10.jar zipkin-reporter-2.7.13.jar logback-cla
+ ssic-1.2.3.jar eureka-client-1.9.8.jar jersey-core-1.19.1.jar brave-i
+ nstrumentation-servlet-5.6.0.jar bcprov-jdk15on-1.60.jar springfox-sw
+ agger2-2.8.0.jar rxjava-1.3.8.jar jackson-annotations-2.9.0.jar commo
+ ns-lang3-3.8.1.jar netflix-eventbus-0.3.0.jar brave-instrumentation-s
+ pring-rabbit-5.6.0.jar brave-instrumentation-spring-webmvc-5.6.0.jar 
+ spring-plugin-metadata-1.2.0.RELEASE.jar log4j-api-2.11.1.jar springf
+ ox-spi-2.8.0.jar spring-cloud-starter-netflix-ribbon-2.1.0.RC3.jar sp
+ ring-boot-starter-logging-2.1.1.RELEASE.jar rxjava-reactive-streams-1
+ .2.1.jar spring-cloud-starter-zipkin-2.1.0.RC3.jar commons-io-2.4.jar
+  jackson-databind-2.9.7.jar reflections-0.9.11.jar javax.annotation-a
+ pi-1.3.2.jar spring-cloud-starter-sleuth-2.1.0.RC3.jar antlr-2.7.7.ja
+ r jackson-module-afterburner-2.9.7.jar jackson-datatype-jdk8-2.9.7.ja
+ r org.apache.commons.io-2.4.jar spring-cloud-context-2.1.0.RC2.jar hy
+ strix-core-1.5.18.jar brave-instrumentation-httpasyncclient-5.6.0.jar
+  netflix-statistics-0.1.1.jar springfox-core-2.8.0.jar swagger-annota
+ tions-1.5.14.jar spring-cloud-starter-netflix-eureka-client-2.1.0.RC3
+ .jar ribbon-2.3.0.jar hystrix-metrics-event-stream-1.5.18.jar spring-
+ cloud-starter-netflix-hystrix-2.1.0.RC3.jar xpp3_min-1.1.4c.jar sprin
+ gfox-schema-2.8.0.jar jettison-1.3.7.jar spring-security-rsa-1.0.7.RE
+ LEASE.jar spring-cloud-netflix-eureka-client-2.1.0.RC3.jar reactive-s
+ treams-1.0.2.jar spring-cloud-netflix-ribbon-2.1.0.RC3.jar eureka-cor
+ e-1.9.8.jar javax.inject-1.jar xstream-1.4.10.jar stax-api-1.0.1.jar 
+ micrometer-core-1.1.1.jar tomcat-embed-core-9.0.13.jar spring-cloud-s
+ leuth-core-2.1.0.RC3.jar ribbon-eureka-2.3.0.jar commons-jxpath-1.3.j
+ ar spring-cloud-commons-2.1.0.RC2.jar httpclient-4.5.6.jar brave-inst
+ rumentation-httpclient-5.6.0.jar spring-boot-starter-actuator-2.1.1.R
+ ELEASE.jar hystrix-javanica-1.5.18.jar spring-cloud-config-client-2.1
+ .0.RC3.jar spring-boot-starter-web-2.1.1.RELEASE.jar spring-security-
+ crypto-5.1.2.RELEASE.jar spring-cloud-starter-netflix-zuul-2.1.0.RC3.
+ jar antlr-runtime-3.4.jar archaius-core-0.7.6.jar ribbon-core-2.3.0.j
+ ar spring-cloud-netflix-zuul-2.1.0.RC3.jar dexx-collections-0.2.jar v
+ alidation-api-2.0.1.Final.jar jul-to-slf4j-1.7.25.jar spring-boot-sta
+ rter-json-2.1.1.RELEASE.jar gson-2.8.5.jar netflix-commons-util-0.3.0
+ .jar joda-time-2.10.1.jar tomcat-embed-websocket-9.0.13.jar jersey-ap
+ ache-client4-1.19.1.jar ribbon-loadbalancer-2.3.0.jar LatencyUtils-2.
+ 0.3.jar spring-cloud-starter-config-2.1.0.RC3.jar zipkin-sender-kafka
+ 11-2.7.13.jar hibernate-validator-6.0.13.Final.jar aspectjrt-1.9.2.ja
+ r bcpkix-jdk15on-1.60.jar logback-core-1.2.3.jar brave-instrumentatio
+ n-spring-web-5.6.0.jar javassist-3.21.0-GA.jar zipkin-2.11.10.jar byt
+ e-buddy-1.9.5.jar netflix-infix-0.3.0.jar log4j-to-slf4j-2.11.1.jar s
+ tringtemplate-3.2.1.jar rxnetty-contexts-0.4.9.jar ribbon-httpclient-
+ 2.3.0.jar tomcat-embed-el-9.0.13.jar spring-boot-autoconfigure-2.1.1.
+ RELEASE.jar spring-plugin-core-1.2.0.RELEASE.jar springfox-swagger-co
+ mmon-2.8.0.jar asm-5.0.4.jar zipkin-sender-amqp-client-2.7.13.jar spr
+ ing-boot-starter-aop-2.1.1.RELEASE.jar commons-configuration-1.8.jar 
+ spring-aop-5.1.3.RELEASE.jar spring-cloud-netflix-hystrix-2.1.0.RC3.j
+ ar woodstox-core-asl-4.4.1.jar spring-jcl-5.1.3.RELEASE.jar commons-c
+ odec-1.11.jar rxnetty-servo-0.4.9.jar mapstruct-1.2.0.Final.jar sprin
+ gfox-spring-web-2.8.0.jar spring-boot-actuator-autoconfigure-2.1.1.RE
+ LEASE.jar spring-boot-starter-2.1.1.RELEASE.jar jackson-module-parame
+ ter-names-2.9.7.jar spring-boot-actuator-2.1.1.RELEASE.jar spring-exp
+ ression-5.1.3.RELEASE.jar springfox-swagger-ui-2.8.0.jar spring-boot-
+ starter-tomcat-2.1.1.RELEASE.jar jackson-datatype-jsr310-2.9.7.jar sp
+ ring-cloud-starter-2.1.0.RC2.jar brave-instrumentation-jms-5.6.0.jar 
+ spring-cloud-starter-netflix-archaius-2.1.0.RC3.jar spring-cloud-sleu
+ th-zipkin-2.1.0.RC3.jar stax2-api-3.1.4.jar rxnetty-0.4.9.jar snakeya
+ ml-1.23.jar commons-math-2.2.jar spring-boot-2.1.1.RELEASE.jar spring
+ -cloud-netflix-archaius-2.1.0.RC3.jar servo-core-0.12.21.jar zuul-cor
+ e-1.3.1.jar HdrHistogram-2.1.9.jar spring-context-5.1.3.RELEASE.jar l
+ ombok-1.18.4.jar slf4j-api-1.7.25.jar ribbon-transport-2.3.0.jar stax
+ -api-1.0-2.jar commons-lang-2.6.jar brave-instrumentation-http-5.6.0.
+ jar aopalliance-1.0.jar spring-webmvc-5.1.3.RELEASE.jar brave-context
+ -log4j2-5.6.0.jar commons-collections-3.2.2.jar jsr311-api-1.1.1.jar 
+ jackson-core-2.9.7.jar brave-instrumentation-kafka-clients-5.6.0.jar 
+ guava-20.0.jar spring-core-5.1.3.RELEASE.jar hystrix-serialization-1.
+ 5.18.jar jersey-client-1.19.1.jar brave-5.6.0.jar jboss-logging-3.3.2
+ .Final.jar swagger-models-1.5.14.jar guice-4.1.0.jar compactmap-1.2.1
+ .jar spring-beans-5.1.3.RELEASE.jar spring-web-5.1.3.RELEASE.jar clas
+ smate-1.4.0.jar fastjson-1.2.54.jar aspectjweaver-1.9.2.jar xmlpull-1
+ .1.3.1.jar
+Main-Class: com.example.gatewayzuul.GatewayZuul3Application
+

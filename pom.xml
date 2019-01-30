@@ -26,6 +26,7 @@
         <module>user-service3</module>
         <module>zuul</module>
         <module>zuul2</module>
+        <module>zuul3</module>
     </modules>
     <properties>
         <java.version>1.8</java.version>

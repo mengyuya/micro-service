@@ -1,0 +1,14 @@
+server:
+  port: 83
+
+spring:
+  application:
+    #读取的版本环境
+    name: service-zuul
+  cloud:
+    config:
+      profile: dev
+      discovery:
+        service-id: config-server
+        #开启读取权限
+        enabled: true
